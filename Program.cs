@@ -9,7 +9,7 @@
         while (intentos > 0)
         {
             Console.WriteLine("Tienes " + intentos + " intentos.");
-            Console.Write("Introduce tu número: ");
+            Console.Write("Introduce un número: ");
             int númeroIntroducido = Convert.ToInt32(Console.ReadLine());
 
             if (númeroIntroducido == númeroQueAdivinar)
